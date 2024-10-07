@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "baseUrl": "./src",
+    "jsx": "react",  // Thêm dòng này để xử lý JSX
+    "strict": true,  // Khuyến khích kiểm tra lỗi mạnh mẽ hơn
+    "esModuleInterop": true // Đảm bảo tương thích khi sử dụng các mô-đun ES
+  },
+  "include": ["src/**/*.jsx", "src/**/*.js"] // Thêm .js nếu bạn sử dụng cả file JavaScript
+}

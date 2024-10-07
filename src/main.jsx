@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client';
 import './index.css'
 import {BrowserRouter} from "react-router-dom"
 import RouterCustom from './router.jsx'
-import HomePage from './pages/users/homePage/index.jsx'
+import './style/style.scss'
+import {formatter} from './utils/formatter'
 
 createRoot(document.getElementById('root')).render( 
 <StrictMode>
