@@ -87,9 +87,6 @@ const Header = ()=>{
                         </Link>
                         </li>
                         <li>
-                        <Link to={""}>
-                            <FaTwitter />
-                        </Link>
                         </li>
                         <li>
                         <Link to={""}>
@@ -137,21 +134,7 @@ const Header = ()=>{
                             </li>
                         ))
                     }
-                    {/* <li>
-                        <Link to="">Sản phẩm</Link>
-                        <lu>
-                            <li>
-                                Thịt
-                            </li>
-                            <li>
-                                Thịt
-                            </li>
-                            <li>
-                                Thịt
-                            </li>
-                        </lu>
-                        
-                    </li> */}
+                 
                 </ul>
             </nav>
         </div>
