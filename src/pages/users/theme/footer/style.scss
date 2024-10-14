@@ -73,12 +73,18 @@
                 height: 36px;
                 border: 1px solid #ededed ;
                 box-sizing: border-box;
+                border-right: none;
+                &:focus{
+                    outline: none;
+                }
                 ::placeholder{
                     color: map.get($theme-colors,"normal-text");
                 }
+               
             }
     
             button{
+                margin-left:-1px ;
                 padding: 0 26px;
                 height: 36px;
                 min-width: max-content;
