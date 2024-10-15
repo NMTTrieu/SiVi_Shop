@@ -12,7 +12,14 @@ body{
     padding: 0;
     margin: 0;
 }
-
+.body{
+    overflow:auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column; /* Đặt chiều dọc cho các phần tử */
+    min-height: 100vh; 
+}
 .container{
     max-width: 1170px;
     display: block;

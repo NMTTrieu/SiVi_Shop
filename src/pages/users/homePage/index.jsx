@@ -3,7 +3,7 @@ import {memo} from "react"
 const HomePage = ()=>{
     return (
         <div className="container">
-        <h1>HomePage</h1>
+        <div className="body">HP</div>
         </div>
     );
 };
